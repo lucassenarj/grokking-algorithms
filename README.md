@@ -1,4 +1,8 @@
 # Entendendo Algoritmos
 
-## Binary Search
-- [binary_search.c](./examples/chapter_01/binary_search.c)
+## Introdução
+_[README.md](./chapters/chapter_01/README.md)_
+
+- Logarítmos
+- Busca binária
+- Big O Notation
