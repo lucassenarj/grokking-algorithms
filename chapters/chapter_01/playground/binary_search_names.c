@@ -57,15 +57,17 @@ Quarterback search(char *typed, Quarterback *qbs)
     while (lowestPosition <= highestPosition) {
         middlePosition = (lowestPosition + highestPosition) / 2;
         Quarterback pick = qbs[middlePosition];
-
-        printf("\n\tSEARCH FUNCTION\n");
-        printf("QB Name: %s\n", name);
-        printf("Pick Name: %s\n", pick.name);
-        printf("Lowest position: %d\n", lowestPosition);
-        printf("Middle position: %i\n", middlePosition);
-        printf("Highest position: %d\n", highestPosition);
         int result = strcmp(pick.name, name);
-        printf("Result: %d\n", result);
+    
+        /*
+            printf("\n\tSEARCH FUNCTION\n");
+            printf("QB Name: %s\n", name);
+            printf("Pick Name: %s\n", pick.name);
+            printf("Lowest position: %d\n", lowestPosition);
+            printf("Middle position: %i\n", middlePosition);
+            printf("Highest position: %d\n", highestPosition);
+            printf("Result: %d\n", result);
+        */
 
         if ( result == 0) {
             return pick;
