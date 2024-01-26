@@ -14,4 +14,5 @@ _[Mais informações](./chapters/chapter_01/README.md)_
 - [Exercícios](./chapters/chapter_01/exercises.md)
 
 ### Playground
-- [Binary search with list of strings](./chapters//chapter_01/playground/binary_search_names.c)
+- [Binary search with list of strings](./chapters//chapter_01/playground/colts-qb-jersey/binary_search_names.c)
+- [Find the smallest missing element from a sorted array](./chapters/chapter_01/playground/smallest-missing/README.md)
