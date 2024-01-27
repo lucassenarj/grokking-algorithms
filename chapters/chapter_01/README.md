@@ -1,4 +1,6 @@
-# Introdução
+# Capítulo 01: Introdução
+_Inicio: 24/01/2024, Fim: 26/01/2024_
+
 Se estiver se sentindo inseguro, escreva o algorítmo simples, pode ser de maneira "pouco eficiente" primeiro, apenas para funcionar. Depois, escreve bastante testes, bons testes, que testam todos os cenários desejados, por último, volta e melhora o algorítmo. Assim evita overengeneering e deixar o projeto demasiadamente complexo logo de inicio, sem ter ao menos uma base funcional.
 
 ## Logarítimos
