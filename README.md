@@ -4,7 +4,7 @@
 
 ## Capítulo 01: Introdução
 ### Leitura
-_[Mais informações](./chapters/chapter_01/README.md)_
+> _[Resumo capítulo](./chapters/chapter_01/README.md)_
 
 - Logarítmos
 - Busca binária
@@ -21,5 +21,13 @@ _[Mais informações](./chapters/chapter_01/README.md)_
 
 
 ## Capítulo 02: Ordenação por seleção
-## Leitura
-_[Mais informações](./chapters/chapter_02/README.md)_
+### Leitura
+> _[Resumo capítulo](./chapters/chapter_02/README.md)_
+
+- Como funciona a memória
+- Arrays e listas encadeadas
+- Ordenação por seleção
+
+### Exemplos
+- [Pegar o menor item em um array](./chapters/chapter_02/examples/get_smallest.c)
+- [Ordenar o array do menor para o maior](./chapters/chapter_02/examples/get_smallest.c)
