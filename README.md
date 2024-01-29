@@ -18,3 +18,8 @@ _[Mais informações](./chapters/chapter_01/README.md)_
 - [Find the smallest missing element from a sorted array](./chapters/chapter_01/playground/smallest-missing/README.md)
 - [LeetCode: Search Insert Position](./chapters/chapter_01/playground/search-insert-position/README.md)
 - [LeetCode: First Bad Version](./chapters/chapter_01/playground/first-bad-version/README.md)
+
+
+## Capítulo 02: Ordenação por seleção
+## Leitura
+_[Mais informações](./chapters/chapter_02/README.md)_
