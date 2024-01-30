@@ -31,3 +31,6 @@
 ### Exemplos
 - [Pegar o menor item em um array](./chapters/chapter_02/examples/get_smallest.c)
 - [Ordenar o array do menor para o maior](./chapters/chapter_02/examples/get_smallest.c)
+
+### Playground
+- [Sort the People](./chapters/chapter_02/playground/sort-the-people/README.md)
