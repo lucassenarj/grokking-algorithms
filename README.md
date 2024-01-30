@@ -34,3 +34,4 @@
 
 ### Playground
 - [Sort the People](./chapters/chapter_02/playground/sort-the-people/README.md)
+- [Phonebook](./chapters/chapter_02/playground/phonebook/phonebook.c)
