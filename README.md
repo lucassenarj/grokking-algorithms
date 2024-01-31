@@ -35,3 +35,25 @@
 ### Playground
 - [Sort the People](./chapters/chapter_02/playground/sort-the-people/README.md)
 - [Phonebook](./chapters/chapter_02/playground/phonebook/phonebook.c)
+
+
+## Capítulo 03: Recursão
+### Leitura
+> _[Resumo capítulo](./chapters/chapter_03/README.md)_
+
+- Recursão
+    - Pseudocódigo
+    - Caso base e caso recursivo
+- A pilha
+    - Pilha de chamada
+    - Pilha de chamada com recursão
+        - Pseudocódigo
+        - Desvantagens
+
+### Exemplos
+- [regressive.c](./chapters/chapter_03/examples/regressive.c)
+- [call-stack.c](./chapters/chapter_03/examples/call-stack.c)
+- [factorial.c](./chapters/chapter_03/examples/factorial.c)
+
+### Playground
+- N/A
