@@ -39,24 +39,35 @@ char** sortPeople(char** names, int namesSize, int* heights, int heightsSize, in
     int i, j;
     *returnSize = namesSize;
 
+    int sortedHeights[heightsSize];
+
     for (i = 0; i < heightsSize; i++)
     {
+        int minIdex = i;
+        int current = heights[i];
     
-        for (j = i; j < heightsSize; j++)
+        for (j = 0; j < heightsSize; j++)
         {
-            if (heights[j] > heights[i])
+            if (heights[j] > current)
             {
-                int tpmNumber = heights[i];
-                heights[i] = heights[j];
-                heights[j] = tpmNumber;
-
-                char *tmp=(char*)malloc(sizeof(char)*20);
-                tmp = names[i];
-                names[i] = names[j];
-                names[j] = tmp;
+                current = heights[j];
+                minIdex = j;
             }
         }
+        heights[minIdex] = 0;
+        sortedHeights[i] = minIdex;
     }
 
-    return names;
+    char** sortedNames;
+    sortedNames = malloc((namesSize)*sizeof(char*));
+
+    for (i = 0; i < namesSize; i++)
+    {
+        char *name = malloc((namesSize + 1) * sizeof(char));
+        name = names[sortedHeights[i]];
+        sortedNames[i] = name;
+        name = malloc(sizeof(char *));
+    }
+
+    return sortedNames;
 }
