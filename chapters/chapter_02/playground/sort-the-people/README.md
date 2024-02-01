@@ -34,5 +34,6 @@ Explanation: The first Bob is the tallest, followed by Alice and the second Bob.
 - All the values of `heights` are distinct.
 
 ## Leetcode score
-- [Link](https://leetcode.com/problems/sort-the-people/submissions/1160884656)
-![leet code score](./leet-code-score-2418-javascript.jpg)
+- [Link](https://leetcode.com/submissions/detail/1163149996/)
+
+![leet code score](./leet-code-score-2418-c-selection-sort.jpg)
